@@ -1,97 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Bar Menu</title>
+    <title>Landing Page</title>
     <style>
         body {
+            background-color: #f4f4f4;
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
         }
 
         h1 {
-            color: #333333;
-            text-align: center;
-            margin-top: 0;
+            font-size: 36px;
+            color: #333;
+			font-family: Vijaya;
+			font-style:italic
         }
+		
+		h2 {
+			font-size: 20px;
+			font-family: Aldhabi;
+		}
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            display: flex;
-            align-items: center;
-            padding: 10px;
-            border-bottom: 1px solid #dddddd;
-            transition: background-color 0.3s;
-        }
-
-        li:last-child {
-            border-bottom: none;
-        }
-
-        li:hover {
-            background-color: #f9f9f9;
-        }
-
-        .item-icon {
-            margin-right: 10px;
-        }
-
-        .item-name {
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            font-size: 18px;
             font-weight: bold;
-            flex-grow: 1;
+            text-decoration: none;
+			font-family: Vijaya;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
         }
 
-        .item-price {
-            font-size: 14px;
-            color: #999999;
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bar Menu</h1>
-        <ul>
-            <li>
-                <img class="item-icon" src="drink-icon.png" alt="Drink Icon">
-                <div class="item-name">Mojito</div>
-                <div class="item-price">$8.99</div>
-            </li>
-            <li>
-                <img class="item-icon" src="beer-icon.png" alt="Beer Icon">
-                <div class="item-name">Craft Beer</div>
-                <div class="item-price">$6.99</div>
-            </li>
-            <li>
-                <img class="item-icon" src="wine-icon.png" alt="Wine Icon">
-                <div class="item-name">Red Wine</div>
-                <div class="item-price">$9.99</div>
-            </li>
-            <li>
-                <img class="item-icon" src="cocktail-icon.png" alt="Cocktail Icon">
-                <div class="item-name">Cosmopolitan</div>
-                <div class="item-price">$10.99</div>
-            </li>
-            <li>
-                <img class="item-icon" src="whiskey-icon.png" alt="Whiskey Icon">
-                <div class="item-name">Old Fashioned</div>
-                <div class="item-price">$12.99</div>
-            </li>
-        </ul>
+        <h1>Benvenuto al Mantice</h1>
+		<h2> Clicca per scaricare i nostri menu</h2>
+        <a class="button" href="file1.pdf" download>Food Menu</a>
+        <a class="button" href="file2.zip" download>Wine list</a>
+        <a class="button" href="file3.txt" download>Drink list</a>
     </div>
 </body>
 </html>
