@@ -6,7 +6,7 @@ body {
 }
 
 .container{
-width: 21cm;
+    width: 21cm;
     height: 29.7cm;
     margin: 2cm auto;
     background-color: #fff;
@@ -16,15 +16,15 @@ width: 21cm;
 h1 {
     font-size: 36px;
     color: #333;
-font-family: Vijaya;
-font-style:italic
-text-align: center;
+    font-family: Vijaya;
+    font-style:italic
+    text-align: center;
 }
 
 h2 {
-font-size: 20px;
-font-family: Aldhabi;
-text-align: center;
+    font-size: 20px;
+    font-family: Aldhabi;
+    text-align: center;
 }
 
 .button {
@@ -34,7 +34,7 @@ text-align: center;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-font-family: Vijaya;
+    font-family: Vijaya;
     color: #fff;
     background-color: #007bff;
     border-radius: 4px;
@@ -43,4 +43,10 @@ font-family: Vijaya;
 
 .button:hover {
     background-color: #0056b3;
+}
+
+.button_container {
+    width: 100px;
+    text-align: center;
+    display: block;
 }
