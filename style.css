@@ -5,12 +5,14 @@ body {
     padding: 0;
 }
 
-.container{
+.copertina_menu {
     width: 21cm;
     height: 29.7cm;
     margin: 2cm auto;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-image: url(./copertina.png);
+    background-size: cover;
 }
 
 h1 {
@@ -43,11 +45,31 @@ h2 {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    backgr8ound-color: #0056b3;
 }
 
 .button_container {
     align: center;
     width: 21cm;
     text-align: center;
+}
+
+.prova {
+    padding-top: 1.5cm;
+}
+
+p {
+    margin-left: 1.5cm;
+    font-family: Aldhabi;
+    font-size: 24px;
+}
+
+.pagina_menu {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 2cm auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-image: url(./Food_List.png);
+    background-size: cover;
 }
